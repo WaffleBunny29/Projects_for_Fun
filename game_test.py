@@ -16,6 +16,7 @@ vel =10 # moves char by 10 pixels for every iteration in the while loop
 while True:
     screen.blit(bg,(0,0))
     pygame.time.delay(100)
+    pygame.display.update()
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT: 
