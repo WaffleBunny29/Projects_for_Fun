@@ -1,6 +1,7 @@
 *.png
 *.mp3
 *.gif
+*.txt
 animations/
 font/
 images/
